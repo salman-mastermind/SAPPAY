@@ -1,0 +1,31 @@
+#moon{
+    animation: moonMoving 1s 0s forwards ease-out;
+}
+
+@keyframes moonMoving {
+    0% {
+        transform: translate();
+    }
+
+    100% {
+        transform: translate(-123px, -143px);
+    }
+}
+
+#boat {
+    animation: boatMoving 1.5s 0s forwards ease-out;
+}
+
+@keyframes boatMoving {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, 25px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        animation-duration: 2s;
+    }
+}

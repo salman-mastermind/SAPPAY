@@ -1,0 +1,19 @@
+#lightCard{
+    animation: cardSlip 0.7s 0.1s forwards ease-out;
+}
+
+@keyframes cardSlip {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    75% {
+        transform: translateY(70px);
+    }
+    100% {
+        transform: translateY(91px);
+    }
+    
+}

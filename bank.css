@@ -1,0 +1,13 @@
+#sun{
+    animation: sunRising 0.8s 0.1s forwards ease-out;
+}
+
+@keyframes sunRising {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(-80px, -124px);
+    }
+}
