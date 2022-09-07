@@ -1,6 +1,3 @@
-body {
-  background-color: #eff0f6;
-}
 #sun {
   animation: sunMoving 2s 0.1s forwards ease-out;
 }
