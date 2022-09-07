@@ -1,0 +1,34 @@
+body {
+  background-color: #eff0f6;
+}
+#sun {
+  animation: sunMoving 2s 0.1s forwards ease-out;
+}
+
+@keyframes sunMoving {
+  100% {
+    transform: translate(-120px, -15px);
+  }
+}
+
+#cloudTwo,
+#cloudOne {
+  animation: cloudsFloating 0.8s 0.1s infinite alternate ease-out;
+}
+
+@keyframes cloudsFloating {
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+#reflection {
+  color: white;
+  animation: reflectingColors 2s 0.1s forwards linear;
+}
+
+@keyframes reflectingColors {
+  100% {
+    color: #f2f2f2;
+  }
+}
